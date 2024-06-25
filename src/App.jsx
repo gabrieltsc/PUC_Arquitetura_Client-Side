@@ -1,6 +1,7 @@
 import './App.css';
-import { Contador } from './components/Contador';
-/*import { AloMundo } from './components/AloMundo';
+import { Relogio } from './components/Relogio';
+/*import { Contador } from './components/Contador';
+import { AloMundo } from './components/AloMundo';
 import { AloMundoColorido } from './components/AloMundoColorido';
 import { MeuBotao } from './components/MeuBotao';
 import { MeuBotao2 } from './components/MeuBotao2';*/
@@ -19,10 +20,13 @@ function App() {
     <div id='divApp' onClick={handleClick}>
       <MeuBotao />
       <MeuBotao2 />
-    </div>*/
+    </div>
 
     <>
       <Contador />
+    </>*/
+    <>
+      <Relogio />
     </>
   );
 }
